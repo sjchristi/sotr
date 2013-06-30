@@ -1,0 +1,82 @@
+/*
+Theme Name:     Song of the Road
+Theme URI:      http://songoftheroad.com/
+Description:    Child theme for the Twenty Twelve theme
+Author:         Sam Christiansen
+Author URI:     http://www.songoftheroad.com/about/
+Template:       twentytwelve                             
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Karla);
+
+.wp-caption {
+	background-color:#F0F0F0;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#content .post .wp-caption-text {
+	margin-bottom: 0px;
+}
+
+.entry-header .entry-title{
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.entry-content p{
+	font-family: 'Karla', sans-serif;
+}
+
+.single-author .entry-meta .by-author {
+	display: inline;
+}
+
+/* padding-bottom:3.84%; */
+/*
+.nivoSlider {
+	min-height:250px;
+}
+*/
+
+.slider-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.nivoSlider-dummy {
+    margin-top: 26%; /* 960x250 */
+}
+
+div .theme-default .nivoSlider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* show me! */
+    /*
+    background-color: silver;
+    */
+}
+
+/*  css to move 'leave a reply' to bottom...
+#content .post {
+	position: relative;
+}
+
+#content .comments-link {
+	position: absolute;
+	bottom: 1em;
+}
+
+#content .post {
+	padding-bottom: 3em;
+}
+*/
